@@ -4,7 +4,7 @@ Este proyecto implementa un frontend en React para realizar operaciones CRUD sob
 
 ## Instrucciones de Configuración
 
-1. Clona el repositorio: `git clone <url_del_repositorio>`
+1. Clona el repositorio: `git clone `
 2. Instala las dependencias: `npm install`
 3. Configura la URL del backend en `src/services/personaService.js`
 4. Ejecuta el frontend: `npm start`
