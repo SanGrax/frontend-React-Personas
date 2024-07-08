@@ -1,0 +1,48 @@
+/* Home.css */
+
+.home-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f5f8fd;
+}
+.h1{
+    color: red;
+}
+.tech-stack {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.tech-logo:hover {
+    transform: scale(1.2); /* Escalar la imagen al pasar el cursor */
+}
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-logo {
+    width: 100px;
+    height: 100px; 
+    object-fit: contain; 
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tech-item span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.list ul {
+    list-style-type: none; /* Quitar los puntos de las listas */
+    padding: 0;
+    
+}
+
+.list li {
+    text-align: center; /* Alinear el texto a la izquierda */
+}
